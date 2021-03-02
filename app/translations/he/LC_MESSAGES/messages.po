@@ -1,0 +1,200 @@
+# Hebrew translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-02-18 19:55+0300\n"
+"PO-Revision-Date: 2021-02-19 08:02+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: he\n"
+"Language-Team: he <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.0\n"
+
+#: app/__init__.py:19
+msgid "Please log in to access this page."
+msgstr "בבקשה תיכנסו לאתר כדי לראות את העמוד"
+
+#: app/forms.py:9 app/forms.py:16 app/forms.py:35
+msgid "Username"
+msgstr "שם משתמם"
+
+#: app/forms.py:10 app/forms.py:18 app/forms.py:66
+msgid "Password"
+msgstr "ססמה"
+
+#: app/forms.py:11
+msgid "Remember Me"
+msgstr "לזכור אותי"
+
+#: app/forms.py:12 app/templates/login.html:5
+msgid "Sign In"
+msgstr "כניסה"
+
+#: app/forms.py:17 app/forms.py:61
+msgid "Email"
+msgstr "דואר אלקטרוני"
+
+#: app/forms.py:20
+msgid "Repeat password"
+msgstr "בדיקת סיסמה"
+
+#: app/forms.py:21 app/templates/register.html:5
+msgid "Register"
+msgstr "הרשמה"
+
+#: app/forms.py:26 app/forms.py:47
+msgid "Please use a different username."
+msgstr "נא תשתמשו בשם אחר"
+
+#: app/forms.py:31
+msgid "Please use a different email."
+msgstr "נא תשתמשו שדואר אלקטרוני אחר"
+
+#: app/forms.py:36
+msgid "About me"
+msgstr "עליי"
+
+#: app/forms.py:37 app/forms.py:51 app/forms.py:57
+msgid "Submit"
+msgstr "אישור"
+
+#: app/forms.py:55
+msgid "Say something"
+msgstr "ספר משהו"
+
+#: app/forms.py:62 app/forms.py:68
+msgid "Request Password Reset"
+msgstr "שחזור ססמה"
+
+#: app/forms.py:67
+msgid "Repeat Password"
+msgstr "בדיקת ססמה"
+
+#: app/routes.py:51
+msgid "Congratulations, you are now a registered user!"
+msgstr "!ברוך/כה הבא/ה לאתר שלנו"
+
+#: app/routes.py:63
+msgid "Invalid username or password"
+msgstr "שגיאה בשם משתמש או ססמה"
+
+#: app/routes.py:104
+msgid "Your chages have been saved."
+msgstr "השינויים שלך נשמרוץ"
+
+#: app/routes.py:119 app/routes.py:139
+#, python-format
+msgid "User %(username)s is not found."
+msgstr "המשתמש %(username)s לא מצוי"
+
+#: app/routes.py:122
+msgid "You cannot follow yourself!"
+msgstr "!אתה לא יכול לעקוב אחריך"
+
+#: app/routes.py:126
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "!%(username)s אתה כבר עוקב אחרי"
+
+#: app/routes.py:146
+#, python-format
+msgid "You are not following %(username)s."
+msgstr ".%(username)s אתה לא עוקב אחרי"
+
+#: app/routes.py:175
+msgid "Check your email for the instructions to reset  your password"
+msgstr "תבדוק/י בדואר האלקטרוני שלך להנחיות שחזור הססמהץ"
+
+#: app/routes.py:191
+msgid "Your password has been reset."
+msgstr "הססמה שלך מאופסת"
+
+#: app/templates/404.html:4
+msgid "File Not Found"
+msgstr "הקובץ לא מצוי"
+
+#: app/templates/404.html:5
+msgid "Back"
+msgstr "אחורה"
+
+#: app/templates/base.html:4
+msgid "Welcome to Microblog"
+msgstr "ברוכ/ה הבא/ה למיכרובלוג"
+
+#: app/templates/base.html:21
+msgid "Home"
+msgstr "עמוד הבית"
+
+#: app/templates/base.html:22
+msgid "Explore"
+msgstr "לגלות"
+
+#: app/templates/base.html:26
+msgid "Login"
+msgstr "כניסה"
+
+#: app/templates/base.html:29
+msgid "Logout"
+msgstr "יציאה"
+
+#: app/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "לשנות פרופיל שלך"
+
+#: app/templates/index.html:5
+#, python-format
+msgid "Hello, %(username)s!"
+msgstr "%(username)s ,שלום"
+
+#: app/templates/index.html:17 app/templates/user.html:41
+msgid "Newer posts"
+msgstr "הודעות אחרונות"
+
+#: app/templates/index.html:22 app/templates/user.html:46
+msgid "Older posts"
+msgstr "הודעות ישנות"
+
+#: app/templates/login.html:12
+msgid "New user?"
+msgstr "?משתמש חדש"
+
+#: app/templates/login.html:12
+msgid "Click here to register"
+msgstr "להירשם לאתר"
+
+#: app/templates/login.html:14
+msgid "Forgot your password?"
+msgstr "?שכחת ססמה"
+
+#: app/templates/login.html:15
+msgid "Click to reset it."
+msgstr ".שחזר/י אותה פה"
+
+#: app/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "שחזר ססמה שלך"
+
+#: app/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "שחזור ססמה"
+
+#: app/templates/user.html:8
+msgid "User"
+msgstr "משתמש"
+
+#: app/templates/user.html:11
+msgid "Last seen on"
+msgstr "היה פה"
+
+#: app/templates/user.html:14
+msgid "Edit your profile"
+msgstr "שנה פרופיל שלך"
+
