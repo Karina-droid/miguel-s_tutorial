@@ -1,3 +1,5 @@
+(venv) karina@TPKarina:~/Desktop/my_python/microblog$ heroku logs --tail
+ ›   Warning: heroku update available from 7.49.0 to 7.50.0.
 2021-03-12T17:23:25.762640+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/gunicorn/workers/sync.py", line 175, in handle_request
 2021-03-12T17:23:25.762640+00:00 app[web.1]: respiter = self.wsgi(environ, resp.start_response)
 2021-03-12T17:23:25.762674+00:00 app[web.1]: File "/app/.heroku/python/lib/python3.6/site-packages/flask/app.py", line 2464, in __call__
@@ -103,3 +105,4 @@
 2021-03-12T17:58:59.204127+00:00 heroku[web.1]: Stopping all processes with SIGTERM
 2021-03-12T17:58:59.282119+00:00 app[web.1]: [2021-03-12 17:58:59 +0000] [15] [INFO] Worker exiting (pid: 15)
 2021-03-12T17:58:59.387770+00:00 heroku[web.1]: Process exited with status 143
+^C
