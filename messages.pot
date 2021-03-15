@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-14 18:19+0300\n"
+"POT-Creation-Date: 2021-03-15 15:04+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -129,11 +129,11 @@ msgstr ""
 msgid "You are not following %(username)s."
 msgstr ""
 
-#: app/main/routes.py:163
+#: app/main/routes.py:164
 msgid "Your message has been sent."
 msgstr ""
 
-#: app/main/routes.py:165
+#: app/main/routes.py:166
 msgid "Send Message"
 msgstr ""
 
@@ -166,11 +166,15 @@ msgstr ""
 msgid "Messages"
 msgstr ""
 
-#: app/templates/base.html:34
+#: app/templates/base.html:39
+msgid "Profile"
+msgstr ""
+
+#: app/templates/base.html:40
 msgid "Logout"
 msgstr ""
 
-#: app/templates/base.html:71
+#: app/templates/base.html:77
 msgid "Error: Could noot contact server."
 msgstr ""
 
@@ -183,11 +187,11 @@ msgstr ""
 msgid "Hello, %(username)s!"
 msgstr ""
 
-#: app/templates/index.html:17
+#: app/templates/index.html:17 app/templates/user.html:48
 msgid "Newer posts"
 msgstr ""
 
-#: app/templates/index.html:22
+#: app/templates/index.html:22 app/templates/user.html:53
 msgid "Older posts"
 msgstr ""
 
@@ -196,8 +200,20 @@ msgstr ""
 msgid "Send Message to %(recipient)s"
 msgstr ""
 
-#: app/templates/user_popup.html:9
+#: app/templates/user.html:8
+msgid "User"
+msgstr ""
+
+#: app/templates/user.html:11 app/templates/user_popup.html:9
 msgid "Last seen on"
+msgstr ""
+
+#: app/templates/user.html:14
+msgid "Edit your profile"
+msgstr ""
+
+#: app/templates/user.html:33
+msgid "Send private message"
 msgstr ""
 
 #: app/templates/user_popup.html:12

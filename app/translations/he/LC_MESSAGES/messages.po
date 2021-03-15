@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2021-03-14 18:19+0300\n"
+"POT-Creation-Date: 2021-03-15 15:04+0300\n"
 "PO-Revision-Date: 2021-02-19 08:02+0300\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: he\n"
@@ -105,7 +105,7 @@ msgstr "ספר משהו"
 
 #: app/main/forms.py:35
 msgid "Message"
-msgstr ""
+msgstr "הודעה"
 
 #: app/main/routes.py:72
 msgid "Your chages have been saved."
@@ -130,12 +130,12 @@ msgstr "!%(username)s אתה כבר עוקב אחרי"
 msgid "You are not following %(username)s."
 msgstr ".%(username)s אתה לא עוקב אחרי"
 
-#: app/main/routes.py:163
+#: app/main/routes.py:164
 #, fuzzy
 msgid "Your message has been sent."
 msgstr "הססמה שלך מאופסת"
 
-#: app/main/routes.py:165
+#: app/main/routes.py:166
 msgid "Send Message"
 msgstr "לשלוח"
 
@@ -168,11 +168,16 @@ msgstr "כניסה"
 msgid "Messages"
 msgstr "הודעות"
 
-#: app/templates/base.html:34
+#: app/templates/base.html:39
+#, fuzzy
+msgid "Profile"
+msgstr "לשנות פרופיל שלך"
+
+#: app/templates/base.html:40
 msgid "Logout"
 msgstr "יציאה"
 
-#: app/templates/base.html:71
+#: app/templates/base.html:77
 msgid "Error: Could noot contact server."
 msgstr ".חלה שגיאה: השרת לא הושג"
 
@@ -185,11 +190,11 @@ msgstr "לשנות פרופיל שלך"
 msgid "Hello, %(username)s!"
 msgstr "%(username)s ,שלום"
 
-#: app/templates/index.html:17
+#: app/templates/index.html:17 app/templates/user.html:48
 msgid "Newer posts"
 msgstr "הודעות אחרונות"
 
-#: app/templates/index.html:22
+#: app/templates/index.html:22 app/templates/user.html:53
 msgid "Older posts"
 msgstr "הודעות ישנות"
 
@@ -198,9 +203,24 @@ msgstr "הודעות ישנות"
 msgid "Send Message to %(recipient)s"
 msgstr "%(recipient)sלשלוח ל"
 
-#: app/templates/user_popup.html:9
+#: app/templates/user.html:8
+#, fuzzy
+msgid "User"
+msgstr "?משתמש חדש"
+
+#: app/templates/user.html:11 app/templates/user_popup.html:9
 msgid "Last seen on"
 msgstr "היה פה"
+
+#: app/templates/user.html:14
+#, fuzzy
+msgid "Edit your profile"
+msgstr "לשנות פרופיל שלך"
+
+#: app/templates/user.html:33
+#, fuzzy
+msgid "Send private message"
+msgstr "לשלוח"
 
 #: app/templates/user_popup.html:12
 #, python-format
