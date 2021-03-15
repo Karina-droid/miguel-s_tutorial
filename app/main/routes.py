@@ -6,7 +6,7 @@ from datetime import datetime
 from app import db
 from app.models import User, Post, Message, Notification
 from app.main import bp
-from app.main.forms import EditProfileForm, EmptyForm, PostForm
+from app.main.forms import EditProfileForm, EmptyForm, PostForm, MessageForm
 from app.translate import translate
 
  
